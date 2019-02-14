@@ -1,0 +1,33 @@
+#photo { width : 200px ;}
+h1{color: pink; text-align: center;}
+h3{color: green; font-style: italic;}
+h5{color:purple ; font-style: italic;}
+
+
+ /*p{color: white;background-color: black;}*/
+ 
+ .left{
+ width:50%;
+ float:left;}
+ 
+ .right{
+ width:50%;
+ float:right;}
+
+
+.mdl-slider__container {
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
+
+
+
+.content {
+ padding: 90px 0;
+ margin: 80px auto ;
+ width: 40%;
+}
+
